@@ -93,6 +93,7 @@ body {
 }
 
 #password-generator {
+    font-family: 'Karla', sans-serif;  
     padding: 25px;
     color: whitesmoke;
     background: #111827;
@@ -103,6 +104,41 @@ body {
 
 #password-inner {
     padding: 25px;
-    background: #0C4A6E;
+    background: #1F2937;
     height: 350px;
+}
+
+#text-one {
+    padding-top: 15px;
+    margin: 0;
+}
+
+#text-two {
+    color:#10B981;
+    margin: 0;
+}
+
+#password-btn {
+    background: #10B981;
+    padding: 5px;
+    color: whitesmoke;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+}
+
+#generated-password-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.password-box {
+    margin-top: 45px;
+    background: #374151;
+    width: 45%;
+    height: 20px;
+    color: #10B981;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px;
 }
