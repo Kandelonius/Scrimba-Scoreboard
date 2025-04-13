@@ -91,3 +91,18 @@ body {
     background: #9AABD8;
     color: #1B244A;
 }
+
+#password-generator {
+    padding: 25px;
+    color: whitesmoke;
+    background: #111827;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+#password-inner {
+    padding: 25px;
+    background: #0C4A6E;
+    height: 350px;
+}
